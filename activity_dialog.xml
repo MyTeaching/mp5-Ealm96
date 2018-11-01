@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="64dp" android:layout_width="match_parent" android:contentDescription="Add Recipe" android:background="#FFFFBB33" android:scaleType="center" android:textSize="36sp" android:text="Add Item"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Meal Name" android:layout_marginBottom="4dp" android:layout_marginRight="4dp" android:layout_marginLeft="4dp" android:layout_marginTop="16dp" android:inputType="text" android:id="@+id/addItem"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Meal Description" android:layout_marginBottom="4dp" android:layout_marginRight="4dp" android:layout_marginLeft="4dp" android:layout_marginTop="16dp" android:inputType="text" android:id="@+id/et_description"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Ingredients" android:layout_marginBottom="4dp" android:layout_marginRight="4dp" android:layout_marginLeft="4dp" android:layout_marginTop="16dp" android:inputType="text" android:id="@+id/ingredients_et"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Enter calories" android:layout_marginBottom="16dp" android:layout_marginRight="4dp" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:inputType="number" android:id="@+id/calories" android:fontFamily="sans-serif"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Link to recipe" android:layout_marginBottom="4dp" android:layout_marginRight="4dp" android:layout_marginLeft="4dp" android:layout_marginTop="16dp" android:inputType="text" android:id="@+id/link_torecipe"/>
+
+</LinearLayout>
